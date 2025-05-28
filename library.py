@@ -210,7 +210,7 @@ def display_books(search_term=None, search_by=None):
         st.write("No books found in the library.")
 
 def get_shareable_link():
-    base_url = "https://mustafayamin-personal-library-manager-library-lohcsi.streamlit.app"
+    base_url = "https://my-personal-library-manager-burair.streamlit.app"
     
     if st.button("Generate Shareable Link"):
         share_link = f"{base_url}?shared=true&user={st.session_state.username}"
